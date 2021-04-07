@@ -3,14 +3,19 @@ letras = frase.split('')
 
 
 letras.each_with_index {|l,i| 
-
     
     #for i.odd? do l.upcase end
     if i.odd?
         l = l.upcase
     end
     # puts "#{l}#{i.odd?}"
-    puts "#{l}"
+
+    belly = l.map.with_index
+    # print "#{l}"
+    
+    # puts "#{l}"
+    
+    # puts "#{l}".join('')
 }
  
 
