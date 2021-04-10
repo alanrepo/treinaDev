@@ -3,37 +3,20 @@ letras = frase.split('')
 
 
 
-# letras.each_with_index {|l,i| 
+letras.each_with_index {|l,i| 
     
- 
-# }
-
-
-puts letras.map { |l| 
     
-if l.odd?
-        l = l.upcase
-    end    
-    l.upcase 
 
+        if i.odd?
+            l = l.upcase
+        elsif
+            l = l.downcase
+        end
+
+resultado = l    
+puts resultado
 }
 
-
-# letras.each_with_index {|l,i| 
-    
-    #for i.odd? do l.upcase end
-    # if i.odd?
-        # l = l.upcase
-    # end
-    # puts "#{l}#{i.odd?}"
-
-    
-    # print "#{l}"
-    
-    # puts "#{l}"
-    
-    # puts "#{l}".join('')
-# }
  
 
 # ["A", "B", "C"]
